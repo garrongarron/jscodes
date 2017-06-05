@@ -46,6 +46,7 @@
 
 	var stop = function(){
 		clearTimeout(timer);
+		window.timer.stop();
 		console.log("'window.switcher.stop()' have been executed");
 	}
 
