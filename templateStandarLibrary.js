@@ -17,8 +17,10 @@
 			"public":public_method
 		}
 		//callback area start 
-		//@todo
-		window.library.public();
+		
+		//Please uncomment the following line
+		//window.library.public();
+		
 		//callback area finish
 	}else{
 		console.log("The library 'window.library' have been already loaded before")
